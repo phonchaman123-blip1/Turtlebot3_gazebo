@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>turtlebot3_midterm_interfaces</name>
+  <version>0.0.1</version>
+  <description>Custom Rotate action definition for the ROS2 midterm exam</description>
+  <maintainer email="S6701023610127@kmutnb.ac.th">Phokchaman Phonchuai</maintainer>
+  <maintainer email="s6701023611085@kmutnb.ac.th">Ratchadapa Yooyatmark</maintainer>
+  <author email="S6701023610127@kmutnb.ac.th">Phokchaman Phonchuai (6701023610127)</author>
+  <author email="s6701023611085@kmutnb.ac.th">Ratchadapa Yooyatmark (6701023611085)</author>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_depend>rosidl_default_generators</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

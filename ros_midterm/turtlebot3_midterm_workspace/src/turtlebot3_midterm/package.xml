@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>turtlebot3_midterm</name>
+  <version>0.0.1</version>
+  <description>ROS2 midterm exam: publisher/subscriber, service, action nodes for TurtleBot3</description>
+  <maintainer email="S6701023610127@kmutnb.ac.th">Phokchaman Phonchuai</maintainer>
+  <maintainer email="s6701023611085@kmutnb.ac.th">Ratchadapa Yooyatmark</maintainer>
+  <author email="S6701023610127@kmutnb.ac.th">Phokchaman Phonchuai (6701023610127)</author>
+  <author email="s6701023611085@kmutnb.ac.th">Ratchadapa Yooyatmark (6701023611085)</author>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>turtlebot3_midterm_interfaces</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
